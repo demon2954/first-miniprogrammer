@@ -1,0 +1,5 @@
+<!--pages/list/list.wxml-->
+<view class="content">
+{{keyword}} --adasdf
+<button bindtap='back'>返回</button>
+</view>

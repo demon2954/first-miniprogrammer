@@ -1,0 +1,25 @@
+/**index.wxss**/
+
+.search {
+  display: flex;
+  flex-direction: row;
+  background: #eec211;
+}
+
+.search_input {
+  width: 80%;
+  background: white;
+  margin: 5px auto;
+}
+
+.more {
+  width: 23px;
+  height: 23px;
+  margin: 5px auto 5px 3px;
+}
+
+.search-btn {
+  width: 23px;
+  height: 23px;
+  margin: 5px 3px 5px auto;
+}

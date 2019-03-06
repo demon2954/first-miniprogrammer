@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="content">
+  <view class="search">
+    <image class="more" src='../img/more.png' mode='center'></image>
+    <input class='search_input' value='{{txt}}' type='text' bindinput='markKeyword'></input>
+    <image class="search-btn" src='../img/more.png' mode='center' bindtap='search'></image>
+  </view>
+
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
