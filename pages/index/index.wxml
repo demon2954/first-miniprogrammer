@@ -13,4 +13,11 @@
       </swiper-item>
     </block>
   </swiper>
+
+  <view class='middle'>
+    <view class='middle_left'><view class="middle_word">数码</view></view>
+    <view class='middle_right'><view class="middle_word">家居</view></view>
+    <view class='middle_left'><view class="middle_word">衣服</view></view>
+    <view class='middle_right'><view class="middle_word">出行</view></view>
+  </view>
 </view>

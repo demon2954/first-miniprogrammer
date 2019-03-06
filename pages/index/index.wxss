@@ -23,3 +23,27 @@
   height: 23px;
   margin: 5px 3px 5px auto;
 }
+
+.middle_left {
+  text-align: center;
+  float: left;
+  background: #eec211;
+  padding: 12% 24.85% 12% 25%;
+  margin-top: 1px;
+  position: relative;
+}
+
+.middle_right {
+  text-align: center;
+  float: right;
+  background: #eec211;
+  padding: 12% 25% 12% 24.85%;
+  margin-top: 1px;
+  position: relative;
+}
+
+	.middle_word {
+		position:absolute;
+		padding: 0px 25% 0px 25%;
+		margin-top: -15%;
+	}
