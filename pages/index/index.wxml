@@ -1,9 +1,9 @@
 <!--index.wxml-->
 <view class="content">
   <view class="search">
-    <image class="more" src='../img/more.png' mode='center'></image>
+    <image class="more" src='../img/more.png' ></image>   
     <input class='search_input' value='{{txt}}' type='text' bindinput='markKeyword'></input>
-    <image class="search-btn" src='../img/more.png' mode='center' bindtap='search'></image>
+    <image class="search-btn" src='../img/search.png'bindtap='search'></image>
   </view>
 
   <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
