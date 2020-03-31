@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    showView: false,
     txt: '',
     keyword: '',
     imgUrls: [
@@ -28,6 +29,21 @@ Page({
     let keyword = this.data.keyword;
     wx.redirectTo({
       url: '../list/list?keyword=' + keyword
+    })
+  },
+  show_more: function(){
+    this.setData({
+      showView: !this.data.showView
+    })
+  },
+  to_security:function(){
+    wx.redirectTo({
+      url: '../security/security'
+    })
+  },
+  to_shares: function () {
+    wx.redirectTo({
+      url: '../shares/shares'
     })
   },
   onLoad: function() {

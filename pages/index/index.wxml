@@ -1,9 +1,14 @@
 <!--index.wxml-->
 <view class="content">
   <view class="search">
-    <image class="more" src='../img/more.png' ></image>   
+    <image class="more" src='../img/more.png' bindtap='show_more'></image>   
     <input class='search_input' value='{{txt}}' type='text' bindinput='markKeyword'></input>
-    <image class="search-btn" src='../img/search.png'bindtap='search'></image>
+    <image class="search-btn" src='../img/search.png' bindtap='search'></image>
+  </view>
+
+  <view class="more_list {{showView?'header_view_show':'header_view_hide'}}">
+    <view bindtap='to_security'><label class="more_item">加解密中心</label></view>
+    <view bindtap='to_shares'><label class="more_item">计股</label></view>
   </view>
 
   <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
@@ -15,7 +20,7 @@
   </swiper>
 
   <view class='middle show'>
-    <view class='middle_left move_1'><view class="middle_word">照片</view></view>
+    <view bindtap='to_security' class='middle_left move_1'><view class="middle_word">加解密</view></view>
     <view class='middle_right move_2'><view class="middle_word">故事</view></view>
     <view class='middle_left move_3'><view class="middle_word">衣服</view></view>
     <view class='middle_right move_4'><view class="middle_word">玩具</view></view>

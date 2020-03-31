@@ -50,6 +50,26 @@
   padding: 0px 25% 0px 25%;
   margin-top: -15%;
 }
+.middle_pic{
+  position: absolute; 
+  width: 50%;
+  height: 25%;
+}
+.header_view_hide{
+  display: none;
+}
+.header_view_show{
+  display: block;
+}
+.more_list{
+  position: absolute;
+  padding: 0px 5% 5px 5%;
+  z-index: 90000000;
+  background: rgb(255, 251, 0);
+}
+.more_item{
+  border-bottom: 1px rgb(0, 0, 0) dashed;
+}
 .show{animation-name:show;animation-duration:3s;position:absoulte;z-index: auto;}
 .move_1{animation-name:move_1;animation-duration:2s;}
 .move_2{animation-name:move_2;animation-duration:2s}

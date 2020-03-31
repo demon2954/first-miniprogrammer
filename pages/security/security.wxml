@@ -1,0 +1,8 @@
+<!--pages/list/list.wxml-->
+<view class="content">
+  <textarea class="frame" bindinput='markInputTxt' maxlength="-1"></textarea>
+  <button bindtap='encrypt'>加密</button>
+  <button bindtap='decrypt'>解密</button>
+  <textarea class="frame" value="{{outputTxt}}" maxlength="-1"></textarea>
+  <button bindtap='back'>返回</button>
+</view>

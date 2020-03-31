@@ -1,0 +1,13 @@
+<!--pages/list/list.wxml-->
+<view class="content">
+  买入价<input class="frame" value="{{inPut}}" type='digit' bindinput="inInput"></input>
+  卖出价<input class="frame" value="{{outPut}}" type='digit' bindinput="outInput"></input>
+  <button bindtap='cal'>看买多少股才赚</button>
+  <button bindtap='clear'>清空</button>
+  <textarea class="frame" value="{{outputTxt}}" maxlength="-1" disabled></textarea>
+  
+  股<input class="frame" value="{{count}}" type='digit' bindinput="countInput"></input>
+  <button bindtap='calCount'>计算</button>
+  <textarea class="frame" value="{{outputCount}}" maxlength="-1" disabled></textarea>
+  <button bindtap='back'>返回</button>
+</view>

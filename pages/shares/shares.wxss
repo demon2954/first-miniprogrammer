@@ -1,0 +1,6 @@
+/* pages/shares/shares.wxss */
+.frame{
+  border:solid 1px #f00;
+  border-radius:5px; 
+  resize:none;
+}
